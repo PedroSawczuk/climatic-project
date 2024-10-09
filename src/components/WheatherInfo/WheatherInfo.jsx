@@ -5,7 +5,7 @@ export function WeatherInfo({ weather }) {
 
     return (
         <>
-            <h2>{weather.name}</h2>
+            <h2 className="text-zinc-100 py-2 text-2xl">{weather.name}</h2>
             
             <div>
                 <img src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`} alt="" />
